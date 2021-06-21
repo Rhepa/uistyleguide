@@ -1,0 +1,71 @@
+
+* { 
+            margin: 0;
+            padding: 0;
+
+        }
+
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.6em;
+  font-weight: 300;
+  color: #555;
+}
+.content{
+  max-width: 900px;
+  margin: auto;
+  background-color: #f7f7f7;
+  border:  20px solid #f7f7f7;
+}
+
+
+/*START COLORS*/
+.circle1 {
+  width: 100px;
+    height: 150px;
+    /*border-radius: 50px;*/
+  position:relative; 
+  background-color: navajowhite; 
+  margin-top: 20px;
+ margin-bottom: 0px;
+  margin-left:0px;
+text-align: center;
+border: 5px solid black;
+}
+.circle2 {
+  width: 100px;
+    height: 150px;
+    /*border-radius: 50px;*/
+  position:relative; 
+  background-color: rosybrown; 
+  margin-top: -160px;
+  margin-left:120px;
+  text-align: center;
+  border: 5px solid black;
+}
+.circle3 {
+  width: 100px;
+    height: 150px;
+   /* border-radius: 50px;*/
+  position:relative; 
+  background-color: oldlace; 
+  margin-top: -160px;
+  margin-left: 240px;
+  text-align: center;
+  border: 5px solid black;
+}
+.circle4 {
+  width: 100px;
+    height: 150px;
+   /* border-radius: 50px;*/
+  position:relative; 
+  background-color: black; 
+  margin-top: -160px;
+  margin-left: 360px;
+  text-align: center;
+  border: 5px solid black;
+}
+/*END COLORS*/
