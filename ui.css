@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Roboto Slab', serif;
-  font-size: 14px;
+ /* font-size: 14px;*/
   letter-spacing: 1px;
   line-height: 1.6em;
   font-weight: 300;
@@ -19,6 +19,7 @@ body {
   margin: auto;
   background-color: #f7f7f7;
   border:  20px solid #f7f7f7;
+  
 }
 
 
@@ -29,11 +30,11 @@ body {
     /*border-radius: 50px;*/
   position:relative; 
   background-color: navajowhite; 
-  margin-top: 20px;
+ 
  margin-bottom: 0px;
   margin-left:0px;
 text-align: center;
-border: 5px solid black;
+border: 5px solid navajowhite;
 }
 .circle2 {
   width: 100px;
@@ -44,7 +45,7 @@ border: 5px solid black;
   margin-top: -160px;
   margin-left:120px;
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid rosybrown;
 }
 .circle3 {
   width: 100px;
@@ -55,7 +56,7 @@ border: 5px solid black;
   margin-top: -160px;
   margin-left: 240px;
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid oldlace;
 }
 .circle4 {
   width: 100px;
@@ -69,3 +70,51 @@ border: 5px solid black;
   border: 5px solid black;
 }
 /*END COLORS*/
+
+/*START BUTTON*/
+.buttonactive {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttoninactive {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*END BUTTON*/
