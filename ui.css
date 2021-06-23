@@ -7,6 +7,9 @@
 body {
   color: black;
 }
+hr{
+  border-top: 1px solid white;
+}
 /*TITLES/SUBTITLES*/
 .titles{
   color: black;
@@ -92,9 +95,16 @@ body {
 
 /*START HEADERS*/
 .header1{
-  color: #444;
+  color: #17252a;
   font-family: FuturaPT,sans-serif;
   font-size: 50px;
+  font-weight: 700;
+}
+.header1-2{
+  color: #feffff;
+  font-family: FuturaPT,sans-serif;
+  font-size: 50px;
+  font-weight: 700;
 }
 .header2{
   letter-spacing: .5px;
@@ -102,16 +112,56 @@ body {
   font-size: 30px;
   font-weight: 700;
   font-style: normal;
-  color: white; 
+  color: #feffff; 
+}
+.header2-2{
+  letter-spacing: .5px;
+  font-family: nimbus-sans, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  color: #f58f7c; 
+}
+.header2-3{
+  letter-spacing: .5px;
+  font-family: nimbus-sans, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  color: #3aafa9; 
+}
+.header2-4{
+  letter-spacing: .5px;
+  font-family: nimbus-sans, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  color:#def2f1 ; 
 }
 .header3{
   color: #444;
 }
 /*END HEADERS*/
 
+/*START BODY TEXT*/
+.bodytext{
+  font-family: nimbus-sans, sans-serif;
+  font-size: 18px; 
+  color: white; 
+  /* margin-right: 300px;*/
+}
+.bodytext2{
+  font-family: nimbus-sans, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #2b7a78; 
+  /* margin-right: 300px;*/
+}
+/*END BODY TEXT*/
+
 /*START BUTTON*/
 .buttonactive {
-  border: none;
+  border: 2px solid #3aafa9;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -152,6 +202,14 @@ body {
   background-color: #f58f7c;
   color: #def2f1;
 }
+.button2 {
+  background-color: #def2f1; 
+  color: #2b7a78; 
+}
+.button2:hover {
+  background-color: #17252a;
+  color: #f58f7c;
+}
 /*END BUTTON*/
 
 /*START TEXT LINK*/
@@ -166,22 +224,6 @@ a:hover {
   color: #def2f1;
 }
 /*END TEXT LINK*/
-
-/*START BODY TEXT*/
-.bodytext{
-  font-family: nimbus-sans, sans-serif;;
-  font-size: 18px; 
-  color: white; 
-  margin-right: 450px;
-}
-.bodytext2{
-  font-family: nimbus-sans, sans-serif;;
-  font-size: 18px;
-  font-weight: 500;
-  color: #2b7a78; 
-  margin-right: 450px;
-}
-/*END BODY TEXT*/
 
 /*START INPUT*/
 input[type=text], select {
